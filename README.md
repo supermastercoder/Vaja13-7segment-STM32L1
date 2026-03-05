@@ -13,6 +13,7 @@ segment G: PA7
 naš prikazovalnik je skupna katoda
 
 2e)
+```
 števka|abcdefg|PA7,PA6,PA5,PA4,PA3,PA2,PA1,PA0|HEX
    0   1111110  0   1   1   1   1   1   1   0  0x007E
    1   0110000  0   0   0   0   1   1   0   0  0x000C
@@ -24,7 +25,7 @@ naš prikazovalnik je skupna katoda
    7   1110000  0   0   0   0   1   1   1   0  0x000E
    8   1111111  1   1   1   1   1   1   1   0  0x00FE
    9   1111011  1   1   0   1   1   1   1   0  0x00DE
-   
+```
 3e)
 Ukaz GPIOA -> ODR pomeni, da na portu GPIOx-u nastavljamo ali
 preberemo stanje pinov v določenem portu. V našem primeru vstavljamo
