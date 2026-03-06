@@ -29,9 +29,10 @@ naš prikazovalnik je skupna katoda
 3e)
 Ukaz GPIOA -> ODR pomeni, da na portu GPIOx-u nastavljamo ali
 preberemo stanje pinov v določenem portu. V našem primeru vstavljamo
-šestnajstiško vrednost (ker je GPIOA 16-bitni) za vsako števko, ki
-jih STM32CubeIDE nato prebere, pretvori v binarno vrednost in s tem
-daje stanje pinov od PA0 do PA15.
+šestnajstiško vrednost (ker je GPIOA 16-bitni register) za vsako števko, ko
+smo pretvorili iz binarnega (to je zato, ker vsak pin predstavlja en bit
+od desne proti leve in jih nato razdelimo za štiri bite, da bi dobili
+šestnajstiško vrednost (2^4)).
 
 4e)
 Ko pritisnemo črno tipko (RESET), se koda ustavi in zažene ponovno.
